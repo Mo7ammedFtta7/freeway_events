@@ -1,0 +1,58 @@
+html,body{
+    height:100%;
+    font-size: 14px;
+ }
+ .bg-light {
+     background-color: #fff !important;
+ }
+ .carousel,.item,.active{
+    height:100%;
+  }
+ .carousel-inner{
+     height:100%;
+ }
+.program-details {
+    text-align: left;
+    margin: 5px auto;
+    margin-bottom: 100px;
+}
+.program-details img{
+height: 100% !important;
+}
+/* ==payment modal== */
+.invoice {
+    padding: 20px;
+    background-color: #eff1f3;
+}
+/* Social media links */
+i.fa.fa-facebook {
+    color: rgb(57, 108, 194);
+}
+i.fa.fa-instagram {
+    color: rgb(220, 81, 71);
+}
+i.fa.fa-twitter {
+    color: rgb(57, 204, 237);
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: rgb(235, 235, 235);
+    outline: 0;
+    box-shadow: 0px 1px 1px rgb(81, 201, 97);
+}
+td {
+    border: 1px solid #ddd;
+}
+/* validation error  calss*/
+.basha-error {
+    border-color: rgb(235, 235, 235);
+    outline: 0;
+    box-shadow: 0px 1px 1px rgb(243, 100, 90);
+}
+
+.modal-backdrop.show {
+     background-color: rgb(28, 29, 70); opacity: 0.75; 
+    backdrop-filter: blur;
+    }
